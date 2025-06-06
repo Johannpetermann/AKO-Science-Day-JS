@@ -15,3 +15,12 @@ Implementing senotherapeutics raises ethical concerns regarding long-term effect
 
 ### Translational Status, Perspectives, Conclusion:
 Senotherapeutics have advanced from promising preclinical evidence to early human trials, demonstrating safety and efficacy. Next steps include clarifying optimal dosing and exploring synergy with existing antifibrotics. If future studies confirm stabilized lung function and improved quality of life, regulatory approval may follow within the decade. Ultimately, successful translation will depend on coordinated efforts in research, policy, and patient advocacy, potentially transforming IPF from a terminal illness into a manageable chronic condition. 
+
+<small id="counter" style="color:#666"></small>
+<script>
+  fetch('https://api.countapi.xyz/hit/ako-science-day/pageviews')
+    .then(r => r.json())
+    .then(d => {
+      document.getElementById('counter').innerText = 'Views: ' + d.value;
+    });
+</script>
