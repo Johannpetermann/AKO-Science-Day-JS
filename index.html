@@ -2,33 +2,52 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title># Welcome 👋  
-Thanks for scanning the QR code! You’ve landed on my IPF senotherapeutics thesis repo. </title>
+  <title>IPF Senotherapeutics Thesis</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <style>
-    body { font-family: sans-serif; max-width: 640px; margin: 2rem auto; line-height: 1.5; color: #333; }
-    h1, h2, h3 { color: #006D77; }
-    small#counter { display: block; margin-top: 1.5rem; color: #666; font-size: 0.9rem; }
+    body {
+      font-family: sans-serif;
+      max-width: 720px;
+      margin: 2rem auto;
+      line-height: 1.6;
+      color: #333;
+      padding: 0 1rem;
+    }
+    h1, h2, h3 { color: #006D77; margin-bottom: 0.5rem; }
+    a.download { 
+      display: inline-block; 
+      margin: 1rem 0; 
+      padding: 0.5rem 1rem; 
+      background: #FF715B; 
+      color: white; 
+      text-decoration: none; 
+      border-radius: 4px;
+    }
+    small#counter { display: block; margin-top: 2rem; color: #666; font-size: 0.9rem; }
   </style>
 </head>
 <body>
 
-  <h1>Treating Idiopathic Pulmonary Fibrosis with Senotherapeutics</h1>
-  <p><strong>J. Petermann, Maastricht University</strong></p>
-  <p><a href="thesis.pdf">➡ Download full thesis (PDF)</a></p>
+  <h1>Welcome 👋</h1>
+  <p>Thanks for scanning the QR code! You’ve landed on my MSc thesis page. Feel free to download the full PDF below.</p>
+
+  <a href="thesis.pdf" class="download">📄 Download Full Thesis (PDF)</a>
 
   <h2>Abstract</h2>
+
   <h3>Medical Problem</h3>
-  <p>Idiopathic pulmonary fibrosis (IPF) is an age-related, progressive…</p>
-  <!-- your full abstract here -->
+  <p>Idiopathic pulmonary fibrosis (IPF) is an age-related, progressive, lung disease characterized by fibrosis and respiratory decline. IPF affects an estimated one to three million people worldwide and kills half of patients within five years of diagnosis. Current antifibrotic therapies merely slow disease progression, carry significant side effects, and are costly. Rising incidence, hospital costs, high mortality, and inequities in diagnosis and treatment highlight a clear need for therapies that target the underlying mechanisms driving IPF pathology.</p>
 
   <h3>Scientific/Clinical/Technical Innovation</h3>
-  <p>A main driver of IPF is the accumulation of senescent cells…</p>
-  <!-- your innovation text here -->
+  <p>A main driver of IPF is the accumulation of senescent cells. Senotherapeutics represent a novel strategy that targets these cells. Senolytics induce apoptosis in senescent cells by inhibiting their survival pathways, while senomorphics dampen fibrotic and inflammatory signaling by their senescence-associated secretory phenotype (SASP). Preclinical studies in mice demonstrate reduced fibrosis and enhanced pulmonary function. Early-phase human trials confirm safety and feasibility in IPF patients, with promising improvements in physical function, thereby establishing proof-of-concept for clinical translation.</p>
 
-  <!-- etc. your other sections … -->
+  <h3>Ethical, Economic and Healthcare Considerations</h3>
+  <p>Implementing senotherapeutics raises ethical concerns regarding long-term effects, immunosuppression, and potential cancer risks. Proper clinical trial recruitment is essential to address gender and ethnic under-representation. Achieving justice requires affordable and equitable access once therapies reach market. While up-front drug costs may rise, reduced hospitalizations and improved patient outcomes may improve overall cost-effectiveness. Integrating senotherapeutics will require clinician and patient education, robust monitoring protocols, and supportive regulatory frameworks to ensure safe and fair use.</p>
 
-  <!-- PLACE YOUR COUNTER HERE -->
+  <h3>Translational Status, Perspectives & Conclusion</h3>
+  <p>Senotherapeutics have advanced from promising preclinical evidence to early human trials, demonstrating safety and efficacy. Next steps include clarifying optimal dosing and exploring synergy with existing antifibrotics. If future studies confirm stabilized lung function and improved quality of life, regulatory approval may follow within the decade. Ultimately, successful translation will depend on coordinated efforts in research, policy, and patient advocacy, potentially transforming IPF from a terminal illness into a manageable chronic condition.</p>
+
+  <!-- Page view counter -->
   <small id="counter">Views: initializing…</small>
   <script>
     fetch('https://api.countapi.xyz/hit/ako-science-day/pageviews')
