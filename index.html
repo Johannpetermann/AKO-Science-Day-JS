@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>IPF Senotherapeutics Thesis</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+    body { font-family: sans-serif; max-width: 640px; margin: 2rem auto; line-height: 1.5; color: #333; }
+    h1, h2, h3 { color: #006D77; }
+    small#counter { display: block; margin-top: 1.5rem; color: #666; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+
+  <h1>Treating Idiopathic Pulmonary Fibrosis with Senotherapeutics</h1>
+  <p><strong>J. Petermann, Maastricht University</strong></p>
+  <p><a href="thesis.pdf">➡ Download full thesis (PDF)</a></p>
+
+  <h2>Abstract</h2>
+  <h3>Medical Problem</h3>
+  <p>Idiopathic pulmonary fibrosis (IPF) is an age-related, progressive…</p>
+  <!-- your full abstract here -->
+
+  <h3>Scientific/Clinical/Technical Innovation</h3>
+  <p>A main driver of IPF is the accumulation of senescent cells…</p>
+  <!-- your innovation text here -->
+
+  <!-- etc. your other sections … -->
+
+  <!-- PLACE YOUR COUNTER HERE -->
+  <small id="counter">Views: initializing…</small>
+  <script>
+    fetch('https://api.countapi.xyz/hit/ako-science-day/pageviews')
+      .then(r => r.json())
+      .then(d => {
+        document.getElementById('counter').innerText = 'Views: ' + d.value;
+      })
+      .catch(console.error);
+  </script>
+
+</body>
+</html>
